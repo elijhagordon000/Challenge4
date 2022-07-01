@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz Game</title>
+   
+</head>
+<body>
+    <p id = 'timer'> Time: 60 </p>
+    <p id = 'scoreboard' >Score: 0</p>
+    <h1>JS Quiz Game </h1>
+    <section>
+        <button type="button"  onclick="startGame()" id = 'startButton' >Start Game</button>
+    </section>
+    <button type="button" id = 'option1' style="display:none;" > Option 1</button>
+    <button type="button" id = 'option2' style="display:none;" > Option 2</button>
+    <button type="button" id = 'option3' style="display:none;" > Option 3</button>
+    <button type="button" id = 'option4' style="display:none;" > Option 4</button>
+    <p id = 'bottomText'></p> 
+    <h2> Game Over! Type your initials and your score</h2>
+    <form action = '#highscores'>
+        <label for="initials">Initials:</label><br>
+        <input type="text" id = "initials" ><br>
+        <button type="button"   id = 'submitBtn' >Submit Btn</button>
+      </form> 
+      
+      
+        <ul ></ul>
+      
+
+   
+    <script src="app.js"></script>
+</body>
+</html>
